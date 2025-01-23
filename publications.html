@@ -7,6 +7,7 @@
   <link rel="icon" type="image/x-icon" href="images/favicon.ico">
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 </head>
 <body>
     <div class="container mx-auto max-w-5xl mt-8">
@@ -27,16 +28,16 @@
         </div>
         <ul id="menu" class="hidden lg:flex space-x-4">
             <li><a href="index.html" class="text-gray-600 font-bold hover:text-black">HOME</a></li>
-            <li><a href="#" class="text-gray-600 font-bold hover:text-black">RESEARCH</a></li>
-            <li><a href="#" class="text-gray-600 font-bold hover:text-black">PUBLICATIONS</a></li>
+            <!-- <li><a href="#" class="text-gray-600 font-bold hover:text-black">RESEARCH</a></li> -->
+            <li><a href="publications.html" class="text-gray-600 font-bold hover:text-black">PUBLICATIONS</a></li>
             <li><a href="#" class="text-gray-600 font-bold hover:text-black">COURSE MATERIALS</a></li>
         </ul>
         </div>
         <div id="mobile-menu" x-show="open" class="lg:hidden transition ease-in-out duration-300">
         <ul class="space-y-2 p-4">
             <li><a href="index.html" class="text-gray-600 font-bold hover:text-black block">HOME</a></li>
-            <li><a href="#" class="text-gray-600 font-bold hover:text-black block">RESEARCH</a></li>
-            <li><a href="#" class="text-gray-600 font-bold hover:text-black block">PUBLICATIONS</a></li>
+            <!-- <li><a href="#" class="text-gray-600 font-bold hover:text-black block">RESEARCH</a></li> -->
+            <li><a href="publications.html" class="text-gray-600 font-bold hover:text-black block">PUBLICATIONS</a></li>
             <li><a href="#" class="text-gray-600 font-bold hover:text-black block">COURSE MATERIALS</a></li>
         </ul>
         </div>
@@ -44,37 +45,46 @@
 
     <div class="container mx-auto flex flex-col lg:flex-row mt-8">
         <div class="flex-1 max-w-xs mx-auto p-4 flex flex-col items-left justify-left">
-        <img src="images/shiroe.png" alt="Your Name" class="rounded-full w-32 h-32 mb-4">
+        <img src="images/farhan.jpg" alt="Profile Photo" class="rounded-full w-32 h-32 mb-4">
         <h2 class="text-xl font-bold">Md. Farhan Shakib</h2>
         <p class="text-gray-700 text-left mb-4"><em>I am a passionate Computer Science educator and enthusiast.</em></p>
         <div>
-            <a href="https://scholar.google.com" class="flex items-center text-gray-600 hover:text-black">
+            <a href="https://scholar.google.com/citations?user=PfjiBQYAAAAJ&hl=en" class="flex items-center text-gray-600 hover:text-black" target="_blank">
                 <!-- <img src="path/to/google-scholar-icon.png" alt="Google Scholar" class="w-5 h-5 mr-2"> -->
+                <i class="fa-brands fa-google-scholar mr-2"></i>
                 G. Scholar
-              </a>
-              <a href="https://www.researchgate.net" class="flex items-center text-gray-600 hover:text-black">
+            </a>
+            <a href="https://www.researchgate.net/profile/Md-Farhan-Shakib" class="flex items-center text-gray-600 hover:text-black" target="_blank">
                 <!-- <img src="path/to/researchgate-icon.png" alt="ResearchGate" class="w-5 h-5 mr-2"> -->
+                <i class="fa-brands fa-researchgate mr-2"></i>
                 ResearchGate
-              </a>
-              <a href="mailto:your-email@example.com" class="flex items-center text-gray-600 hover:text-black">
+            </a>
+            <a href="https://www.cse.ruet.ac.bd/farhan.shakib" class="flex items-center text-gray-600 hover:text-black" target="_blank">
                 <!-- <img src="path/to/email-icon.png" alt="Email" class="w-5 h-5 mr-2"> -->
+                <i class="fas fa-user-circle mr-2"></i>
+                Faculty Profile
+            </a>
+            <a href="mailto:farhan.shakib@cse.ruet.ac.bd" class="flex items-center text-gray-600 hover:text-black" target="_blank">
+                <!-- <img src="path/to/email-icon.png" alt="Email" class="w-5 h-5 mr-2"> -->
+                <i class="fas fa-envelope mr-2"></i>
                 Email
             </a>
         </div>
         </div>
         <div class="flex-1 p-4">
-        <h2 class="text-xl font-bold">My Publications</h2>
-        <p class="text-gray-700">
-            On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the
-            charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound
-            to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as
-            saying through shrinking from toil and pain. These cases are perfectly simple and easy to distinguish. In a free
-            hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best,
-            every pleasure is to be welcomed and every pain avoided. But in certain circumstances and owing to the claims of
-            duty or the obligations of business it will frequently occur that pleasures have to be repudiated and annoyances
-            accepted. The wise man therefore always holds in these matters to this principle of selection: he rejects pleasures
-            to secure other greater pleasures, or else he endures pains to avoid worse pains.
-        </p>
+            <!-- Publications Section -->
+            <h2 class="text-xl font-bold mt-8">Publications</h2>
+            <div class="mt-4">
+                <h4 class="text-lg font-semibold">2023</h4>
+                <ul class="list-disc pl-5">
+                    <li class="ml-5">
+                        Md. Farhan Shakib, Md. Al Mamun, <br>
+                        Bushfire Classification from Satellite Imagery using Deep Learning, <br>
+                        <em>26th International Conference on Computer and Information Technology (ICCIT), Bangladesh, 2023</em> <br>
+                        <a href="https://doi.org/10.1109/ICCIT60459.2023.10441576" class="text-blue-600" target="_blank">[Link]</a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </div>
     </div>
