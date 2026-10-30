@@ -4,11 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MD. FARHAN SHAKIB</title>
+    <title>PUBLICATIONS | MD. FARHAN SHAKIB</title>
     <link rel="icon" type="image/x-icon" href="images/favicon.ico">
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <style>
+        [x-cloak] { display: none !important; }
+    </style>
 </head>
 
 <body>
@@ -40,24 +43,26 @@
                     <!-- <li><a href="#" class="text-gray-600 font-bold hover:text-black">RESEARCH</a></li> -->
                     <li><a href="publications.html" class="text-gray-600 font-bold hover:text-black">PUBLICATIONS</a>
                     </li>
-                    <li><a href="#" class="text-gray-600 font-bold hover:text-black">COURSE MATERIALS</a></li>
+                    <!-- <li><a href="#" class="text-gray-600 font-bold hover:text-black">COURSE MATERIALS</a></li> -->
                 </ul>
             </div>
-            <div id="mobile-menu" x-show="open" class="lg:hidden transition ease-in-out duration-300">
+            <div id="mobile-menu" x-show="open" x-cloak class="lg:hidden transition ease-in-out duration-300">
                 <ul class="space-y-2 p-4">
                     <li><a href="index.html" class="text-gray-600 font-bold hover:text-black block">HOME</a></li>
                     <!-- <li><a href="#" class="text-gray-600 font-bold hover:text-black block">RESEARCH</a></li> -->
                     <li><a href="publications.html"
                             class="text-gray-600 font-bold hover:text-black block">PUBLICATIONS</a></li>
-                    <li><a href="#" class="text-gray-600 font-bold hover:text-black block">COURSE MATERIALS</a></li>
+                    <!-- <li><a href="#" class="text-gray-600 font-bold hover:text-black block">COURSE MATERIALS</a></li> -->
                 </ul>
             </div>
         </nav>
 
         <div class="container mx-auto flex flex-col lg:flex-row mt-8">
             <div class="flex-1 max-w-xs mx-auto p-4 flex flex-col items-left justify-left">
-                <img src="images/farhan.jpg" alt="Profile Photo" class="rounded-full w-32 h-32 mb-4">
+                <img src="images/farhan-256.jpg" alt="Profile Photo" class="rounded-full w-32 h-32 mb-4">
                 <h2 class="text-xl font-bold">Md. Farhan Shakib</h2>
+                <p class="text-gray-700 text-left mb-2">Assistant Professor<br>
+                    Department of CSE, RUET</p>
                 <p class="text-gray-700 text-left mb-4"><em>I am a passionate Computer Science educator and
                         enthusiast.</em></p>
                 <div>
@@ -86,7 +91,7 @@
                         Faculty Profile
                     </a>
                     <a href="mailto:farhan.shakib@cse.ruet.ac.bd"
-                        class="flex items-center text-gray-600 hover:text-black" target="_blank">
+                        class="flex items-center text-gray-600 hover:text-black">
                         <!-- <img src="path/to/email-icon.png" alt="Email" class="w-5 h-5 mr-2"> -->
                         <i class="fas fa-envelope mr-2"></i>
                         Email
@@ -97,13 +102,60 @@
                 <!-- Publications Section -->
                 <h2 class="text-xl font-bold mt-8">Publications</h2>
                 <div class="mt-4">
+                    <h4 class="text-lg font-semibold">2026</h4>
+                    <ul class="list-disc pl-5">
+                        <li class="ml-5">
+                            Md. Farhan Shakib, Md. Shahid Uz Zaman, Md. Al Mamun, Md. Nahiduzzaman, Muhammad E. H. Chowdhury, Md. Azmain Yakin Srizon, and A. F. M. Minhazur Rahman, <br>
+                            Cross-Sensor Bushfire Detection Using Supervised Domain Adaptation, <br>
+                            <em>Journal: IEEE Access, vol. 14, pp. 33858-33872, 2026</em> <br>
+                            <a href="https://doi.org/10.1109/ACCESS.2026.3666589" class="text-blue-600"
+                                target="_blank">[Link]</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="mt-4">
                     <h4 class="text-lg font-semibold">2025</h4>
                     <ul class="list-disc pl-5">
                         <li class="ml-5">
-                            Md. Farhan Shakib, Md. Shahid Uz Zaman, Md. Al Mamun, Azmain Yakin Srizon, and A. F. M. Minhazur Rahmam, <br>
+                            Md. Farhan Shakib and Md. Shahid Uz Zaman, <br>
+                            Optimizing Deep Learning-Based Bushfire Detection from Sentinel-2 Satellite Data via Channel Selection, <br>
+                            <em>Conference: 2025 28th International Conference on Computer and Information Technology (ICCIT)</em> <br>
+                            <a href="https://doi.org/10.1109/ICCIT68739.2025.11491374" class="text-blue-600"
+                                target="_blank">[Link]</a>
+                        </li>
+                        <li class="ml-5 mt-4">
+                            Md. Farhan Shakib, Md. Shahid Uz Zaman, Md. Al Mamun, Md. Azmain Yakin Srizon, and A. F. M. Minhazur Rahman, <br>
                             Enhancing Bushfire Classification in Satellite Imagery through Gradient Based Channel Selection, <br>
                             <em>Conference: 2025 International Conference on Electrical, Computer and Communication Engineering (ECCE)</em> <br>
-                            <a href="http://dx.doi.org/10.1109/ECCE64574.2025.11014021" class="text-blue-600"
+                            <a href="https://doi.org/10.1109/ECCE64574.2025.11014021" class="text-blue-600"
+                                target="_blank">[Link]</a>
+                        </li>
+                        <li class="ml-5 mt-4">
+                            Md. Mubtasim Rahaman, Md. Farhan Shakib, Md. Ahsanul Karim Abir, and Md. Musfiqur Rahman Mridha, <br>
+                            Attention-Guided Lightweight CNN for Robust Image Steganalysis under Common Manipulations, <br>
+                            <em>Conference: 2025 28th International Conference on Computer and Information Technology (ICCIT)</em> <br>
+                            <a href="https://doi.org/10.1109/ICCIT68739.2025.11491239" class="text-blue-600"
+                                target="_blank">[Link]</a>
+                        </li>
+                        <li class="ml-5 mt-4">
+                            Muydul Islam, Md. Farhan Shakib, Mohiuddin Ahmed, and Md. Farukuzzaman, <br>
+                            Optimizing Multi-Scale CNN with Attention Mechanisms for Automated AMD Diagnosis from Retinal OCT Images, <br>
+                            <em>Conference: 2025 28th International Conference on Computer and Information Technology (ICCIT)</em> <br>
+                            <a href="https://doi.org/10.1109/ICCIT68739.2025.11490472" class="text-blue-600"
+                                target="_blank">[Link]</a>
+                        </li>
+                        <li class="ml-5 mt-4">
+                            Sadia Anjum, Marzuka Zannat Chowdhury, Mohiuddin Ahmed, A. F. M. Minhazur Rahman, and Md. Farhan Shakib, <br>
+                            Selective Fine-Tuning of Deep CNNs: A Reliable Framework for Brain Tumor Classification, <br>
+                            <em>Conference: 2025 28th International Conference on Computer and Information Technology (ICCIT)</em> <br>
+                            <a href="https://doi.org/10.1109/ICCIT68739.2025.11491306" class="text-blue-600"
+                                target="_blank">[Link]</a>
+                        </li>
+                        <li class="ml-5 mt-4">
+                            Kefaet Ullah, Mohiuddin Ahmed, A. F. M. Minhazur Rahman, and Md. Farhan Shakib, <br>
+                            A Novel Agro-Climatic Dataset for Bangladesh-Specific Multi-Class Crop Classification with Top-k Based Performance Evaluation, <br>
+                            <em>Conference: 2025 28th International Conference on Computer and Information Technology (ICCIT)</em> <br>
+                            <a href="https://doi.org/10.1109/ICCIT68739.2025.11491765" class="text-blue-600"
                                 target="_blank">[Link]</a>
                         </li>
                     </ul>
@@ -112,10 +164,9 @@
                     <h4 class="text-lg font-semibold">2023</h4>
                     <ul class="list-disc pl-5">
                         <li class="ml-5">
-                            Md. Farhan Shakib and, Md. Al Mamun, <br>
+                            Md. Farhan Shakib and Md. Al Mamun, <br>
                             Bushfire Classification from Satellite Imagery using Deep Learning, <br>
-                            <em>26th International Conference on Computer and Information Technology (ICCIT),
-                                Bangladesh, 2023</em> <br>
+                            <em>Conference: 2023 26th International Conference on Computer and Information Technology (ICCIT)</em> <br>
                             <a href="https://doi.org/10.1109/ICCIT60459.2023.10441576" class="text-blue-600"
                                 target="_blank">[Link]</a>
                         </li>
@@ -124,6 +175,10 @@
             </div>
         </div>
     </div>
+
+    <!-- Cloudflare Web Analytics -->
+    <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "91f43b836edb475fa20b27105f2d5573"}'></script>
+    <!-- End Cloudflare Web Analytics -->
 </body>
 
 </html>

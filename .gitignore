@@ -5,3 +5,4 @@ content/
 venv/
 Makefile
 commands.txt
+*.bib
