@@ -6,3 +6,4 @@ venv/
 Makefile
 commands.txt
 *.bib
+.DS_Store
